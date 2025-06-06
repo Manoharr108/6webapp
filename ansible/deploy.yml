@@ -9,7 +9,3 @@
         dest: "/opt/tomcat/webapps/"
         remote_src: no
 
-    - name: Restart Tomcat
-      systemd:
-        name: tomcat
-        state: restarted
